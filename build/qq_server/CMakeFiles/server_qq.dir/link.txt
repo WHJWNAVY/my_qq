@@ -1,0 +1,1 @@
+/usr/bin/gcc      CMakeFiles/server_qq.dir/qq_server.c.o CMakeFiles/server_qq.dir/__/my_utils/my_socket.c.o  -o server_qq -rdynamic 

@@ -1,0 +1,2 @@
+/home/work/my_program/my_qq/build/qq_client/CMakeFiles/client_qq.dir
+/home/work/my_program/my_qq/build/qq_server/CMakeFiles/server_qq.dir
