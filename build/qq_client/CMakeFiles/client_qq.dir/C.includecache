@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../my_utils/list.h
+
 ../my_utils/my_socket.h
 stdio.h
 -
@@ -40,49 +42,25 @@ signal.h
 errno.h
 -
 
-/home/work/my_program/my_qq/my_utils/my_socket.c
-my_socket.h
-/home/work/my_program/my_qq/my_utils/my_socket.h
+../my_utils/qq_msg.h
+list.h
+../my_utils/list.h
+type.h
+../my_utils/type.h
 
-/home/work/my_program/my_qq/my_utils/my_socket.h
-stdio.h
--
-stdlib.h
--
-string.h
--
-unistd.h
--
-sys/types.h
--
-sys/socket.h
--
-netinet/in.h
--
-netinet/ip.h
--
-arpa/inet.h
--
-sys/select.h
--
-sys/poll.h
--
-sys/epoll.h
--
-netdb.h
--
-fcntl.h
--
-signal.h
--
-errno.h
--
+../my_utils/type.h
 
 /home/work/my_program/my_qq/qq_client/qq_client.c
 stdio.h
+-
+stdlib.h
 -
 unistd.h
 -
 my_socket.h
 /home/work/my_program/my_qq/qq_client/my_socket.h
+qq_msg.h
+/home/work/my_program/my_qq/qq_client/qq_msg.h
+time.h
+-
 

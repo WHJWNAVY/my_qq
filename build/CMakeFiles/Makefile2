@@ -71,7 +71,7 @@ qq_server/preinstall:
 qq_server/CMakeFiles/server_qq.dir/all:
 	$(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/depend
 	$(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/my_program/my_qq/build/CMakeFiles  3 4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/my_program/my_qq/build/CMakeFiles  7 8 9 10 11 12
 	@echo "Built target server_qq"
 .PHONY : qq_server/CMakeFiles/server_qq.dir/all
 
@@ -81,7 +81,7 @@ all: qq_server/CMakeFiles/server_qq.dir/all
 
 # Build rule for subdir invocation for target.
 qq_server/CMakeFiles/server_qq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 qq_server/CMakeFiles/server_qq.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 0
 .PHONY : qq_server/CMakeFiles/server_qq.dir/rule
@@ -121,7 +121,7 @@ qq_client/preinstall:
 qq_client/CMakeFiles/client_qq.dir/all:
 	$(MAKE) -f qq_client/CMakeFiles/client_qq.dir/build.make qq_client/CMakeFiles/client_qq.dir/depend
 	$(MAKE) -f qq_client/CMakeFiles/client_qq.dir/build.make qq_client/CMakeFiles/client_qq.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/my_program/my_qq/build/CMakeFiles  1 2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/work/my_program/my_qq/build/CMakeFiles  1 2 3 4 5 6
 	@echo "Built target client_qq"
 .PHONY : qq_client/CMakeFiles/client_qq.dir/all
 
@@ -131,7 +131,7 @@ all: qq_client/CMakeFiles/client_qq.dir/all
 
 # Build rule for subdir invocation for target.
 qq_client/CMakeFiles/client_qq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 qq_client/CMakeFiles/client_qq.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/work/my_program/my_qq/build/CMakeFiles 0
 .PHONY : qq_client/CMakeFiles/client_qq.dir/rule

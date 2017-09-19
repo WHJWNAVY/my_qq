@@ -109,6 +109,30 @@ server_qq/fast:
 	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/build
 .PHONY : server_qq/fast
 
+__/my_utils/main.o: __/my_utils/main.c.o
+.PHONY : __/my_utils/main.o
+
+# target to build an object file
+__/my_utils/main.c.o:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/main.c.o
+.PHONY : __/my_utils/main.c.o
+
+__/my_utils/main.i: __/my_utils/main.c.i
+.PHONY : __/my_utils/main.i
+
+# target to preprocess a source file
+__/my_utils/main.c.i:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/main.c.i
+.PHONY : __/my_utils/main.c.i
+
+__/my_utils/main.s: __/my_utils/main.c.s
+.PHONY : __/my_utils/main.s
+
+# target to generate assembly for a file
+__/my_utils/main.c.s:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/main.c.s
+.PHONY : __/my_utils/main.c.s
+
 __/my_utils/my_socket.o: __/my_utils/my_socket.c.o
 .PHONY : __/my_utils/my_socket.o
 
@@ -132,6 +156,78 @@ __/my_utils/my_socket.s: __/my_utils/my_socket.c.s
 __/my_utils/my_socket.c.s:
 	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/my_socket.c.s
 .PHONY : __/my_utils/my_socket.c.s
+
+__/my_utils/qq_msg.o: __/my_utils/qq_msg.c.o
+.PHONY : __/my_utils/qq_msg.o
+
+# target to build an object file
+__/my_utils/qq_msg.c.o:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/qq_msg.c.o
+.PHONY : __/my_utils/qq_msg.c.o
+
+__/my_utils/qq_msg.i: __/my_utils/qq_msg.c.i
+.PHONY : __/my_utils/qq_msg.i
+
+# target to preprocess a source file
+__/my_utils/qq_msg.c.i:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/qq_msg.c.i
+.PHONY : __/my_utils/qq_msg.c.i
+
+__/my_utils/qq_msg.s: __/my_utils/qq_msg.c.s
+.PHONY : __/my_utils/qq_msg.s
+
+# target to generate assembly for a file
+__/my_utils/qq_msg.c.s:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/qq_msg.c.s
+.PHONY : __/my_utils/qq_msg.c.s
+
+__/my_utils/readline.o: __/my_utils/readline.c.o
+.PHONY : __/my_utils/readline.o
+
+# target to build an object file
+__/my_utils/readline.c.o:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/readline.c.o
+.PHONY : __/my_utils/readline.c.o
+
+__/my_utils/readline.i: __/my_utils/readline.c.i
+.PHONY : __/my_utils/readline.i
+
+# target to preprocess a source file
+__/my_utils/readline.c.i:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/readline.c.i
+.PHONY : __/my_utils/readline.c.i
+
+__/my_utils/readline.s: __/my_utils/readline.c.s
+.PHONY : __/my_utils/readline.s
+
+# target to generate assembly for a file
+__/my_utils/readline.c.s:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/readline.c.s
+.PHONY : __/my_utils/readline.c.s
+
+__/my_utils/shell_cmd.o: __/my_utils/shell_cmd.c.o
+.PHONY : __/my_utils/shell_cmd.o
+
+# target to build an object file
+__/my_utils/shell_cmd.c.o:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/shell_cmd.c.o
+.PHONY : __/my_utils/shell_cmd.c.o
+
+__/my_utils/shell_cmd.i: __/my_utils/shell_cmd.c.i
+.PHONY : __/my_utils/shell_cmd.i
+
+# target to preprocess a source file
+__/my_utils/shell_cmd.c.i:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/shell_cmd.c.i
+.PHONY : __/my_utils/shell_cmd.c.i
+
+__/my_utils/shell_cmd.s: __/my_utils/shell_cmd.c.s
+.PHONY : __/my_utils/shell_cmd.s
+
+# target to generate assembly for a file
+__/my_utils/shell_cmd.c.s:
+	cd /home/work/my_program/my_qq/build && $(MAKE) -f qq_server/CMakeFiles/server_qq.dir/build.make qq_server/CMakeFiles/server_qq.dir/__/my_utils/shell_cmd.c.s
+.PHONY : __/my_utils/shell_cmd.c.s
 
 qq_server.o: qq_server.c.o
 .PHONY : qq_server.o
@@ -166,9 +262,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... server_qq"
+	@echo "... __/my_utils/main.o"
+	@echo "... __/my_utils/main.i"
+	@echo "... __/my_utils/main.s"
 	@echo "... __/my_utils/my_socket.o"
 	@echo "... __/my_utils/my_socket.i"
 	@echo "... __/my_utils/my_socket.s"
+	@echo "... __/my_utils/qq_msg.o"
+	@echo "... __/my_utils/qq_msg.i"
+	@echo "... __/my_utils/qq_msg.s"
+	@echo "... __/my_utils/readline.o"
+	@echo "... __/my_utils/readline.i"
+	@echo "... __/my_utils/readline.s"
+	@echo "... __/my_utils/shell_cmd.o"
+	@echo "... __/my_utils/shell_cmd.i"
+	@echo "... __/my_utils/shell_cmd.s"
 	@echo "... qq_server.o"
 	@echo "... qq_server.i"
 	@echo "... qq_server.s"

@@ -1,6 +1,10 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/server_qq.dir/qq_server.c.o"
+  "CMakeFiles/server_qq.dir/__/my_utils/main.c.o"
   "CMakeFiles/server_qq.dir/__/my_utils/my_socket.c.o"
+  "CMakeFiles/server_qq.dir/__/my_utils/readline.c.o"
+  "CMakeFiles/server_qq.dir/__/my_utils/shell_cmd.c.o"
+  "CMakeFiles/server_qq.dir/__/my_utils/qq_msg.c.o"
   "server_qq.pdb"
   "server_qq"
 )
